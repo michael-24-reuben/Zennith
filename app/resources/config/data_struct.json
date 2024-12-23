@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Movies",
+    "columns": [
+      {
+        "column": "uniqid",
+        "type": "VARCHAR(255)",
+        "constraints": "PRIMARY KEY"
+      },
+      {
+        "column": "title",
+        "type": "VARCHAR(255)",
+        "constraints": "UNIQUE NOT NULL"
+      },
+      {
+        "column": "description",
+        "type": "TEXT",
+        "constraints": ""
+      },
+      {
+        "column": "release_year",
+        "type": "INT",
+        "constraints": ""
+      },
+      {
+        "column": "duration",
+        "type": "INT",
+        "constraints": ""
+      },
+      {
+        "column": "genres",
+        "type": "TEXT",
+        "constraints": ""
+      },
+      {
+        "column": "rating",
+        "type": "DOUBLE",
+        "constraints": ""
+      },
+      {
+        "column": "toggle_fav",
+        "type": "BOOLEAN",
+        "constraints": "DEFAULT false"
+      }
+    ]
+  }
+]
